@@ -1,0 +1,56 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-top-left-radius: 50px; /* Zaoblené horní rohy */
+    border-top-right-radius: 50px;
+}
+
+.footer * {
+    text-decoration: none;
+    color:#ffaa00;
+}
+
+
+.interface {
+
+    background: rgba(0, 0, 0, 0.7); /* Tmavší průhledné pozadí */
+    color: white; /* Barva textu */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.button-link {
+    display: inline-block; /* Aby odkaz mohl být stylován jako tlačítko */
+    background-color: #ffcc00; /* Barva pozadí tlačítka */
+    color: white; /* Barva textu */
+    padding: 10px 20px; /* Vnitřní mezery */
+    text-decoration: none; /* Odebere podtržení */
+    border-radius: 10px; /* Zaoblené rohy */
+    font-size: 16px; /* Velikost písma */
+    text-align: center; /* Zarovnání textu na střed */
+    cursor: pointer; /* Ukazatel myši změní tvar na ruku */
+}
+
+.header {
+    background: rgba(0, 0, 0, 0.5); /* Černé průhledné pozadí */
+    color: white; /* Barva textu */
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    background-image: url("/pictures/zaklad.jpeg"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+    margin: 0;
+}
+
+
