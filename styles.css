@@ -1,3 +1,19 @@
+
+
+.image {
+    max-width: 50%;
+    height: auto; 
+    max-height: 50%; 
+}
+
+.image-container {
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
 .footer {
     position: fixed;
     bottom: 0;
@@ -18,34 +34,34 @@
 
 .interface {
 
-    background: rgba(0, 0, 0, 0.7); /* Tmavší průhledné pozadí */
-    color: white; /* Barva textu */
+    background: rgba(0, 0, 0, 0.7); 
+    color: white; 
     padding: 20px;
     border-radius: 10px;
     text-align: center;
 }
 
 .button-link {
-    display: inline-block; /* Aby odkaz mohl být stylován jako tlačítko */
-    background-color: #ffcc00; /* Barva pozadí tlačítka */
-    color: white; /* Barva textu */
-    padding: 10px 20px; /* Vnitřní mezery */
-    text-decoration: none; /* Odebere podtržení */
-    border-radius: 10px; /* Zaoblené rohy */
-    font-size: 16px; /* Velikost písma */
-    text-align: center; /* Zarovnání textu na střed */
-    cursor: pointer; /* Ukazatel myši změní tvar na ruku */
+    display: inline-block; 
+    background-color: #ffcc00; 
+    color: white; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border-radius: 10px; 
+    font-size: 25px; 
+    text-align: center; 
+    cursor: pointer; 
 }
 
 .header {
-    background: rgba(0, 0, 0, 0.5); /* Černé průhledné pozadí */
-    color: white; /* Barva textu */
+    background: rgba(0, 0, 0, 0.5);
+    color: white; 
     padding: 20px;
     text-align: center;
 }
 
 body {
-    background-image: url("/pictures/zaklad.jpeg"); 
+    background-image: url("/images/forest.jpg"); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
